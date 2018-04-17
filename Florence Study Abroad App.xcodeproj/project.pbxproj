@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8CDA6F20863F8B001DEDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDA6E20863F8B001DEDA3 /* AppDelegate.swift */; };
+		BA8CDA7120863F8B001DEDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDA7020863F8B001DEDA3 /* ViewController.swift */; };
+		BA8CDA7420863F8B001DEDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8CDA7220863F8B001DEDA3 /* Main.storyboard */; };
+		BA8CDA7620863F8B001DEDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8CDA7520863F8B001DEDA3 /* Assets.xcassets */; };
+		BA8CDA7920863F8B001DEDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8CDA7720863F8B001DEDA3 /* LaunchScreen.storyboard */; };
+		BA8CDA8420863F8B001DEDA3 /* Florence_Study_Abroad_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDA8320863F8B001DEDA3 /* Florence_Study_Abroad_AppTests.swift */; };
+		BA8CDA8F20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDA8E20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8CDA8020863F8B001DEDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8CDA6320863F8B001DEDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8CDA6A20863F8B001DEDA3;
+			remoteInfo = "Florence Study Abroad App";
+		};
+		BA8CDA8B20863F8B001DEDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8CDA6320863F8B001DEDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8CDA6A20863F8B001DEDA3;
+			remoteInfo = "Florence Study Abroad App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8CDA6B20863F8B001DEDA3 /* Florence Study Abroad App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Florence Study Abroad App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8CDA6E20863F8B001DEDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA8CDA7020863F8B001DEDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA8CDA7320863F8B001DEDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8CDA7520863F8B001DEDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8CDA7820863F8B001DEDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8CDA7A20863F8B001DEDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8CDA7F20863F8B001DEDA3 /* Florence Study Abroad AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Florence Study Abroad AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8CDA8320863F8B001DEDA3 /* Florence_Study_Abroad_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Florence_Study_Abroad_AppTests.swift; sourceTree = "<group>"; };
+		BA8CDA8520863F8B001DEDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8CDA8A20863F8B001DEDA3 /* Florence Study Abroad AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Florence Study Abroad AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8CDA8E20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Florence_Study_Abroad_AppUITests.swift; sourceTree = "<group>"; };
+		BA8CDA9020863F8B001DEDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8CDA6820863F8B001DEDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8CDA7C20863F8B001DEDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8CDA8720863F8B001DEDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8CDA6220863F8B001DEDA3 = {
+			isa = PBXGroup;
+			children = (
+				BA8CDA6D20863F8B001DEDA3 /* Florence Study Abroad App */,
+				BA8CDA8220863F8B001DEDA3 /* Florence Study Abroad AppTests */,
+				BA8CDA8D20863F8B001DEDA3 /* Florence Study Abroad AppUITests */,
+				BA8CDA6C20863F8B001DEDA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8CDA6C20863F8B001DEDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8CDA6B20863F8B001DEDA3 /* Florence Study Abroad App.app */,
+				BA8CDA7F20863F8B001DEDA3 /* Florence Study Abroad AppTests.xctest */,
+				BA8CDA8A20863F8B001DEDA3 /* Florence Study Abroad AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8CDA6D20863F8B001DEDA3 /* Florence Study Abroad App */ = {
+			isa = PBXGroup;
+			children = (
+				BA8CDA6E20863F8B001DEDA3 /* AppDelegate.swift */,
+				BA8CDA7020863F8B001DEDA3 /* ViewController.swift */,
+				BA8CDA7220863F8B001DEDA3 /* Main.storyboard */,
+				BA8CDA7520863F8B001DEDA3 /* Assets.xcassets */,
+				BA8CDA7720863F8B001DEDA3 /* LaunchScreen.storyboard */,
+				BA8CDA7A20863F8B001DEDA3 /* Info.plist */,
+			);
+			path = "Florence Study Abroad App";
+			sourceTree = "<group>";
+		};
+		BA8CDA8220863F8B001DEDA3 /* Florence Study Abroad AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8CDA8320863F8B001DEDA3 /* Florence_Study_Abroad_AppTests.swift */,
+				BA8CDA8520863F8B001DEDA3 /* Info.plist */,
+			);
+			path = "Florence Study Abroad AppTests";
+			sourceTree = "<group>";
+		};
+		BA8CDA8D20863F8B001DEDA3 /* Florence Study Abroad AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8CDA8E20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift */,
+				BA8CDA9020863F8B001DEDA3 /* Info.plist */,
+			);
+			path = "Florence Study Abroad AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8CDA6A20863F8B001DEDA3 /* Florence Study Abroad App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8CDA9320863F8B001DEDA3 /* Build configuration list for PBXNativeTarget "Florence Study Abroad App" */;
+			buildPhases = (
+				BA8CDA6720863F8B001DEDA3 /* Sources */,
+				BA8CDA6820863F8B001DEDA3 /* Frameworks */,
+				BA8CDA6920863F8B001DEDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Florence Study Abroad App";
+			productName = "Florence Study Abroad App";
+			productReference = BA8CDA6B20863F8B001DEDA3 /* Florence Study Abroad App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8CDA7E20863F8B001DEDA3 /* Florence Study Abroad AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8CDA9620863F8B001DEDA3 /* Build configuration list for PBXNativeTarget "Florence Study Abroad AppTests" */;
+			buildPhases = (
+				BA8CDA7B20863F8B001DEDA3 /* Sources */,
+				BA8CDA7C20863F8B001DEDA3 /* Frameworks */,
+				BA8CDA7D20863F8B001DEDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8CDA8120863F8B001DEDA3 /* PBXTargetDependency */,
+			);
+			name = "Florence Study Abroad AppTests";
+			productName = "Florence Study Abroad AppTests";
+			productReference = BA8CDA7F20863F8B001DEDA3 /* Florence Study Abroad AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8CDA8920863F8B001DEDA3 /* Florence Study Abroad AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8CDA9920863F8B001DEDA3 /* Build configuration list for PBXNativeTarget "Florence Study Abroad AppUITests" */;
+			buildPhases = (
+				BA8CDA8620863F8B001DEDA3 /* Sources */,
+				BA8CDA8720863F8B001DEDA3 /* Frameworks */,
+				BA8CDA8820863F8B001DEDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8CDA8C20863F8B001DEDA3 /* PBXTargetDependency */,
+			);
+			name = "Florence Study Abroad AppUITests";
+			productName = "Florence Study Abroad AppUITests";
+			productReference = BA8CDA8A20863F8B001DEDA3 /* Florence Study Abroad AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8CDA6320863F8B001DEDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = user134267;
+				TargetAttributes = {
+					BA8CDA6A20863F8B001DEDA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BA8CDA7E20863F8B001DEDA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA8CDA6A20863F8B001DEDA3;
+					};
+					BA8CDA8920863F8B001DEDA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA8CDA6A20863F8B001DEDA3;
+					};
+				};
+			};
+			buildConfigurationList = BA8CDA6620863F8B001DEDA3 /* Build configuration list for PBXProject "Florence Study Abroad App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8CDA6220863F8B001DEDA3;
+			productRefGroup = BA8CDA6C20863F8B001DEDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8CDA6A20863F8B001DEDA3 /* Florence Study Abroad App */,
+				BA8CDA7E20863F8B001DEDA3 /* Florence Study Abroad AppTests */,
+				BA8CDA8920863F8B001DEDA3 /* Florence Study Abroad AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8CDA6920863F8B001DEDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8CDA7920863F8B001DEDA3 /* LaunchScreen.storyboard in Resources */,
+				BA8CDA7620863F8B001DEDA3 /* Assets.xcassets in Resources */,
+				BA8CDA7420863F8B001DEDA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8CDA7D20863F8B001DEDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8CDA8820863F8B001DEDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8CDA6720863F8B001DEDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8CDA7120863F8B001DEDA3 /* ViewController.swift in Sources */,
+				BA8CDA6F20863F8B001DEDA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8CDA7B20863F8B001DEDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8CDA8420863F8B001DEDA3 /* Florence_Study_Abroad_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8CDA8620863F8B001DEDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8CDA8F20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8CDA8120863F8B001DEDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8CDA6A20863F8B001DEDA3 /* Florence Study Abroad App */;
+			targetProxy = BA8CDA8020863F8B001DEDA3 /* PBXContainerItemProxy */;
+		};
+		BA8CDA8C20863F8B001DEDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8CDA6A20863F8B001DEDA3 /* Florence Study Abroad App */;
+			targetProxy = BA8CDA8B20863F8B001DEDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA8CDA7220863F8B001DEDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8CDA7320863F8B001DEDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA8CDA7720863F8B001DEDA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8CDA7820863F8B001DEDA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8CDA9120863F8B001DEDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA8CDA9220863F8B001DEDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8CDA9420863F8B001DEDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Florence Study Abroad App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.Florence-Study-Abroad-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8CDA9520863F8B001DEDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Florence Study Abroad App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.Florence-Study-Abroad-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA8CDA9720863F8B001DEDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Florence Study Abroad AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.Florence-Study-Abroad-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Florence Study Abroad App.app/Florence Study Abroad App";
+			};
+			name = Debug;
+		};
+		BA8CDA9820863F8B001DEDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Florence Study Abroad AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.Florence-Study-Abroad-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Florence Study Abroad App.app/Florence Study Abroad App";
+			};
+			name = Release;
+		};
+		BA8CDA9A20863F8B001DEDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Florence Study Abroad AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.Florence-Study-Abroad-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Florence Study Abroad App";
+			};
+			name = Debug;
+		};
+		BA8CDA9B20863F8B001DEDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Florence Study Abroad AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.Florence-Study-Abroad-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Florence Study Abroad App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8CDA6620863F8B001DEDA3 /* Build configuration list for PBXProject "Florence Study Abroad App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8CDA9120863F8B001DEDA3 /* Debug */,
+				BA8CDA9220863F8B001DEDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8CDA9320863F8B001DEDA3 /* Build configuration list for PBXNativeTarget "Florence Study Abroad App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8CDA9420863F8B001DEDA3 /* Debug */,
+				BA8CDA9520863F8B001DEDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8CDA9620863F8B001DEDA3 /* Build configuration list for PBXNativeTarget "Florence Study Abroad AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8CDA9720863F8B001DEDA3 /* Debug */,
+				BA8CDA9820863F8B001DEDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8CDA9920863F8B001DEDA3 /* Build configuration list for PBXNativeTarget "Florence Study Abroad AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8CDA9A20863F8B001DEDA3 /* Debug */,
+				BA8CDA9B20863F8B001DEDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8CDA6320863F8B001DEDA3 /* Project object */;
+}
