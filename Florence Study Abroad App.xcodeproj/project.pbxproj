@@ -14,6 +14,7 @@
 		BA8CDA7920863F8B001DEDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8CDA7720863F8B001DEDA3 /* LaunchScreen.storyboard */; };
 		BA8CDA8420863F8B001DEDA3 /* Florence_Study_Abroad_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDA8320863F8B001DEDA3 /* Florence_Study_Abroad_AppTests.swift */; };
 		BA8CDA8F20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDA8E20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift */; };
+		BA8CDA9D20864450001DEDA3 /* Florence Study Abroad App in Resources */ = {isa = PBXBuildFile; fileRef = BA8CDA9C20864450001DEDA3 /* Florence Study Abroad App */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA8CDA8A20863F8B001DEDA3 /* Florence Study Abroad AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Florence Study Abroad AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8CDA8E20863F8B001DEDA3 /* Florence_Study_Abroad_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Florence_Study_Abroad_AppUITests.swift; sourceTree = "<group>"; };
 		BA8CDA9020863F8B001DEDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8CDA9C20864450001DEDA3 /* Florence Study Abroad App */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Florence Study Abroad App"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				BA8CDA6E20863F8B001DEDA3 /* AppDelegate.swift */,
 				BA8CDA7020863F8B001DEDA3 /* ViewController.swift */,
 				BA8CDA7220863F8B001DEDA3 /* Main.storyboard */,
+				BA8CDA9C20864450001DEDA3 /* Florence Study Abroad App */,
 				BA8CDA7520863F8B001DEDA3 /* Assets.xcassets */,
 				BA8CDA7720863F8B001DEDA3 /* LaunchScreen.storyboard */,
 				BA8CDA7A20863F8B001DEDA3 /* Info.plist */,
@@ -234,6 +237,7 @@
 			files = (
 				BA8CDA7920863F8B001DEDA3 /* LaunchScreen.storyboard in Resources */,
 				BA8CDA7620863F8B001DEDA3 /* Assets.xcassets in Resources */,
+				BA8CDA9D20864450001DEDA3 /* Florence Study Abroad App in Resources */,
 				BA8CDA7420863F8B001DEDA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
